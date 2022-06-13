@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<link rel="stylesheet" href="css/style.css"> 
+<link rel="stylesheet" href="style.css"> 
     </head>
     <body>
     <p id="local">loading...</p>
@@ -12,14 +12,22 @@
         <script>
             var timer = setInterval(displayWorldTime, 1000);
           var cities = [
-           {name: "instanbul", utcOffset: 3, flag: "Turkey.png"},
-           {name: "New York City", utcOffset: -5, flag: "United-States-of-America.png"},
-           {name: "Toyko", utcOffset: 9, flag: "Japan.png"},
-           {name: "Moscow", utcOffset: 3, flag: "Russia.png"},
-           {name: "Rio De Janeiro", utcOffset: -3, flag: "Brazil.png"},
-           {name: "Sydney", utcOffset: 11, flag: "Australia.png"},
-           {name: "Vancouver", utcOffset: -8, flag: "Canada.png"},
-           {name: "Beijing", utcOffset: 8, flag: "China.png"}
+        {name: "instanbul", utcOffset: 3, flag: "Turkey.png"},
+        {name: "New York City", utcOffset: -5, flag: "United-States-of-America.png"},
+        {name: "Toyko", utcOffset: 9, flag: "Japan.png"},
+        {name: "Moscow", utcOffset: 3, flag: "Russia.png"},
+        {name: "Rio De Janeiro", utcOffset: -3, flag: "Brazil.png"},
+        {name: "Sydney", utcOffset: 11, flag: "Australia.png"},
+        {name: "Vancouver", utcOffset: -8, flag: "Canada.png"},
+        {name: "Beijing", utcOffset: 8, flag: "China.png"},
+        {name: "london",utcOffset: 1,flag:"United-Kingdom.png"},
+        {name:"Cape town",utcOffset: 2,flag:"South-Africa.png"},
+        {name:"Nairob",utcOffset: 3,flag:"kenya.png"},
+        {name:"Jakarta",utcOffset: 7,flag:"Indonesia.png"},
+        {name:"Antananarivo",utcOffset: 3,flag:"Madagascar.png"},
+        {name:"Victoria,Seychelles",utcOffset: 4,flag:"Seychelles.png"},
+        {name:"Dhaka",utcOffset: 6,flag:"Bangladesh.png"},
+        {name:"Logos",utcOffset: 1,flag:"Nigeria.png"},
           ];
             
             cities.sort(compare);
